@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - going to chekc the condtion
  *
@@ -21,7 +22,7 @@ int main(void)
 	} else if (n == 0)
 	{
 		printf("%d is zero\n", n);
-	}else
+	} else
 	{
 		printf("%d is negative\n", n);
 	}
