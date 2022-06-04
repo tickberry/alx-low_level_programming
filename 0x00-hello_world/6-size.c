@@ -1,13 +1,23 @@
 #include <stdio.h>
-#include <conio.h>
 /**
  * main - prints size of various types
- * descrition compiling
- * return: with the value size of types
+ *
+ * Descrition compiling
+ *
+ * Return: 0 with the value size of types
  */
-int main(void){
-	printf("size of %2d: bytes\n"sizeof (char));
-	printf("size of %2d: bytes\n"sizeof(int));
-	printf("size of %2d: bytes\n"sizeof(long int));
-	printf("size of %2d: bytes\n"sizeof(float));
+int main(void)
+{
+	int a;
+	long int b;
+	long long int c;
+	char d;
+	float f;
+
+	printf("size of a char: %lu bytes\n", (unsigned long)sizeof(d));
+	printf("size of an int: %lu bytes\n", (unsigned long)sizeof(a));
+	printf("size of a long int: %lu bytes\n", (unsigned long)sizeof(b));
+	printf("size of a long int: %lu bytes\n", (unsigned long)sizeof(c));
+	printf("size of a float: %lu bytes\n", (unsigned long)sizeof(f));
 	return (0);
+}
