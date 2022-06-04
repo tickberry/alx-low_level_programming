@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * main - prints texts
+ * main - entry points to print
  *
- *descriptiothe main
- *it does "prints the outcome is a piece of art"
- * return: 0
+ * Return: always 0 (success)
+ *
  */
 int main(void)
-{printf("with proper grammar, but the outcome is a piece of art,\n");
+{
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
