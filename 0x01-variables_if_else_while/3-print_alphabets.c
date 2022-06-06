@@ -1,9 +1,8 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - the main block
  *
- * Description: print thae alphabet in lowcase & upper case
- *
+ * Description: print thae alphabet in lowcase & uppercase
  * Return: 0
  */
 int main(void)
@@ -12,9 +11,9 @@ int main(void)
 
 	printf("Capital uppercase:\n");
 	for (i = 'A'; i <= 'Z'; i++)
-		putchar("%d", i);
+		printf("%c ", i);
 	printf("Lower lowercase:\n");
 	for (i = 'a'; i <= 'z'; i++)
-		putchar("%d", i);
+		printf("%c ", i);
 	return (0);
 }
