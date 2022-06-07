@@ -1,18 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main: entry point
- *
- *
+ * main - entry point
  * Description: entry point
- *
- * Return: 0 always
+ * Return: 0
  */
-/** short description for main function */
+
 int main(void)
 {
-
-	char _putchar;
-/** this will pint _putchar */
-	printf("_putchar\n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	return (0);
 }
